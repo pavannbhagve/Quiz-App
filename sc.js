@@ -121,7 +121,7 @@ function SelectAnswer(e) {
 }
 
 
-function showScore() {
+function showScore() 
 
     resetState();
     questionElement.innerHTML = `Your scored ${score} out of ${questions.length}!`;
